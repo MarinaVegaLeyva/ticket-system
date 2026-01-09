@@ -45,33 +45,36 @@ La información se guarda de forma persistente usando **LocalStorage** y se gest
 
 ## 📂 Estructura del proyecto
 
-📦src
- ┣ 📂app
- ┃ ┣ 📜hooks.js
- ┃ ┗ 📜store.js
- ┣ 📂assets
- ┃ ┗ 📜react.svg
- ┣ 📂components
- ┃ ┣ 📜TicketDetail.jsx
- ┃ ┣ 📜TicketForm.css
- ┃ ┣ 📜TicketForm.jsx
- ┃ ┣ 📜TicketList.css
- ┃ ┗ 📜TicketList.jsx
- ┣ 📂features
- ┃ ┣ 📂tickets
- ┃ ┃ ┣ 📜ticketsApi.js
- ┃ ┃ ┗ 📜ticketsSlice.js
- ┃ ┗ 📂users
- ┣ 📂pages
- ┃ ┣ 📜MyReports.jsx
- ┃ ┗ 📜ReportProblem.jsx
- ┣ 📜App.jsx
- ┣ 📜index.css
- ┗ 📜main.jsx
- 
+```txt
+src
+├── app
+│   ├── hooks.js
+│   └── store.js
+├── assets
+│   └── react.svg
+├── components
+│   ├── TicketDetail.jsx
+│   ├── TicketForm.jsx
+│   ├── TicketForm.css
+│   ├── TicketList.jsx
+│   └── TicketList.css
+├── features
+│   ├── tickets
+│   │   ├── ticketsApi.js
+│   │   └── ticketsSlice.js
+│   └── users
+├── pages
+│   ├── MyReports.jsx
+│   └── ReportProblem.jsx
+├── App.jsx
+├── index.css
+└── main.jsx
+```
+
+
 # 🚀 Instalación y ejecución del proyecto
 1️⃣ Clonar el repositorio
-git clone https://github.com/
+git clone https://github.com/MarinaVegaLeyva/ticket-system
 
 2️⃣ Entrar al proyecto
 cd ticket-system
