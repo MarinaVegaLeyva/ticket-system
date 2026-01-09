@@ -43,6 +43,14 @@ La información se guarda de forma persistente usando **LocalStorage** y se gest
 
 ---
 
+## Pruebas unitarias
+
+Se incluyen pruebas unitarias para los slices de Redux usando **Vitest** y **Testing Library**.
+
+Ejecutar pruebas:
+```bash
+npm test
+
 ## 📂 Estructura del proyecto
 
 ```txt
